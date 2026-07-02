@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的游戏档案馆</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top">我的游戏档案馆</a>
+    <nav class="nav-links" aria-label="页面导航">
+      <a href="#profile">主页</a>
+      <a href="#platforms">平台账号</a>
+      <a href="#library">游戏库</a>
+      <a href="#guestbook">访问者留言</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section id="profile" class="hero section-shell">
+      <div class="profile-card">
+        <img id="avatar" class="avatar" src="assets/avatar.svg" alt="个人头像">
+        <div class="profile-text">
+          <p class="eyebrow">Player Profile</p>
+          <h1 id="player-name">玩家昵称</h1>
+          <p id="player-bio" class="bio">这里会显示你的个人简介。</p>
+          <div id="favorite-tags" class="tag-row"></div>
+        </div>
+      </div>
+
+      <div id="stats" class="stats-grid" aria-label="个人游戏数据"></div>
+    </section>
+
+    <section class="section-shell two-column">
+      <div>
+        <div class="section-title">
+          <p class="eyebrow">Recently Played</p>
+          <h2>最近游玩</h2>
+        </div>
+        <div id="recent-games" class="mini-game-list"></div>
+      </div>
+
+      <div>
+        <div class="section-title">
+          <p class="eyebrow">Favorites</p>
+          <h2>最喜欢的游戏</h2>
+        </div>
+        <div id="favorite-games" class="mini-game-list"></div>
+      </div>
+    </section>
+
+    <section id="platforms" class="section-shell">
+      <div class="section-title">
+        <p class="eyebrow">Accounts</p>
+        <h2>游戏平台账号</h2>
+      </div>
+      <div id="platform-list" class="platform-grid"></div>
+    </section>
+
+    <section id="library" class="section-shell">
+      <div class="section-title library-title">
+        <div>
+          <p class="eyebrow">Game Library</p>
+          <h2>我的游戏库</h2>
+        </div>
+        <p id="game-count" class="muted"></p>
+      </div>
+
+      <div class="toolbar">
+        <label class="search-box">
+          <span>搜索</span>
+          <input id="search-input" type="search" placeholder="输入游戏名称">
+        </label>
+
+        <label>
+          <span>平台</span>
+          <select id="platform-filter"></select>
+        </label>
+
+        <label>
+          <span>类型</span>
+          <select id="genre-filter"></select>
+        </label>
+
+        <label>
+          <span>状态</span>
+          <select id="status-filter"></select>
+        </label>
+
+        <button id="reset-button" type="button" title="清空搜索和筛选">重置</button>
+      </div>
+
+      <div id="game-list" class="game-grid"></div>
+      <p id="empty-message" class="empty-message">没有找到符合条件的游戏。</p>
+    </section>
+
+    <section id="guestbook" class="section-shell guestbook">
+      <div class="section-title">
+        <p class="eyebrow">Guestbook</p>
+        <h2>访问者留言</h2>
+      </div>
+      <form id="message-form" class="message-form">
+        <label>
+          <span>你的名字</span>
+          <input id="visitor-name" type="text" maxlength="20" placeholder="例如：路过的玩家" required>
+        </label>
+        <label>
+          <span>留言内容</span>
+          <textarea id="visitor-message" rows="4" maxlength="160" placeholder="写一句想说的话" required></textarea>
+        </label>
+        <button type="submit">发布留言</button>
+      </form>
+      <div id="message-list" class="message-list"></div>
+      <p id="message-empty" class="message-empty">还没有留言，欢迎留下第一句话。</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>用 HTML、CSS 和 JavaScript 制作的个人游戏主页。</p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
