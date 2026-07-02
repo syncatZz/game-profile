@@ -1,0 +1,6 @@
+<svg width="640" height="360" viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="360" fill="#f4df31"/>
+  <path d="M70 260h50V98h82v162h44V142h88v118h42V74h102v186h92v100H70z" fill="#17151d"/>
+  <path d="M64 82h250M390 124h186M146 54h74" stroke="#15b8d8" stroke-width="10"/>
+  <text x="34" y="322" fill="#17151d" font-family="Arial" font-size="36" font-weight="900">CYBERPUNK 2077</text>
+</svg>

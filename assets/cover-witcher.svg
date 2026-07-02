@@ -1,0 +1,7 @@
+<svg width="640" height="360" viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="360" fill="#18202a"/>
+  <path d="M130 260L250 78l90 130 65-86 105 138z" fill="#c9d5dd"/>
+  <path d="M0 260h640v100H0z" fill="#273645"/>
+  <circle cx="475" cy="86" r="42" fill="#c24b48"/>
+  <text x="34" y="322" fill="#eef5fb" font-family="Arial" font-size="34" font-weight="700">THE WITCHER 3</text>
+</svg>

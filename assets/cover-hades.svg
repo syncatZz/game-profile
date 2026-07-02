@@ -1,0 +1,6 @@
+<svg width="640" height="360" viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="360" fill="#140c14"/>
+  <path d="M320 54c-72 72-95 124-65 178 22 40 91 42 126 2 39-45 21-105-61-180z" fill="#d94a38"/>
+  <path d="M250 272h140l-38 48h-64z" fill="#2b8a74"/>
+  <text x="34" y="322" fill="#f3d17b" font-family="Arial" font-size="40" font-weight="700">HADES</text>
+</svg>

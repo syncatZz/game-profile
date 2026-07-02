@@ -1,0 +1,9 @@
+<svg width="640" height="360" viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="360" fill="#7fc6e8"/>
+  <circle cx="520" cy="74" r="42" fill="#ffd66b"/>
+  <rect y="180" width="640" height="180" fill="#5da85c"/>
+  <path d="M0 250h640" stroke="#d8b16a" stroke-width="26" stroke-dasharray="38 22"/>
+  <rect x="72" y="128" width="140" height="98" fill="#a85b35"/>
+  <path d="M52 128h180L142 70z" fill="#d1493f"/>
+  <text x="34" y="322" fill="#18351f" font-family="Arial" font-size="34" font-weight="700">STARDEW VALLEY</text>
+</svg>
