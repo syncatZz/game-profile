@@ -5,7 +5,7 @@ const siteData = {
   player: {
     name: "HAJIMIMIMIIIII",
     avatar: "assets/109951166326898793.jpg",
-    bio: "你好这里是哈基米的简介。",
+    bio: "你好这里是哈基米hachimi的简介。",
     favoriteGenres: ["开放世界", "RPG", "射击游戏", "合作"],
     totalHours: "我也不知道啊啊啊啊啊啊啊啊啊",
     favoriteGenre: "开放世界",
